@@ -1,0 +1,10 @@
+version: 2
+
+docs:
+  - name: doc_order_status
+    description: >
+      The status of the order. Valid values include:
+        - placed: The order has been submitted.
+        - shipped: The order has been sent to the customer.
+        - delivered: The customer received the order.
+        - cancelled: The order was cancelled and should not be included in reporting.

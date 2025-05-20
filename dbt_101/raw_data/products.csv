@@ -1,0 +1,201 @@
+ID,NAME,PRICE,CATEGORY
+1,Basil - Pesto Sauce,3.17,Food
+2,"Cake Circle, Foil, Scallop",14.72,Food
+3,Versatainer Nc - 8288,16.54,Kitchen Supplies
+4,Milk - Chocolate 500ml,6.07,Food
+5,Pork Loin Bine - In Frenched,12.77,Food
+6,Juice - Ocean Spray Kiwi,4.75,Beverages
+7,Cafe Royale,13.94,Beverages
+8,Bread - Granary Small Pull,2.16,Food
+9,Wine - Winzer Krems Gruner,17.25,Beverages
+10,"Pasta - Tortellini, Fresh",1.52,Food
+11,Pork Loin Bine - In Frenched,22.41,Food
+12,"Juice - Grapefruit, 341 Ml",3.39,Beverages
+13,"Beef - Cooked, Corned",13.76,Food
+14,Sage - Fresh,19.55,Food
+15,"Lemonade - Black Cherry, 591 Ml",13.84,Beverages
+16,Wine - Lamancha Do Crianza,24.14,Beverages
+17,Radish,22.47,Food
+18,Nantucket Orange Juice,3.97,Beverages
+19,Wine - Barbera Alba Doc 2001,20.26,Beverages
+20,Swiss Chard,4.9,Food
+21,Corn Shoots,8.92,Food
+22,Irish Cream - Baileys,10.02,Beverages
+23,Wine - Masi Valpolocell,10.4,Beverages
+24,Wine - Magnotta - Cab Sauv,14.09,Beverages
+25,Jam - Apricot,8.7,Food
+26,Ecolab Digiclean Mild Fm,14.37,Household Supplies
+27,Garbage Bags - Black,20.48,Household Supplies
+28,Wine - Vovray Sec Domaine Huet,17.88,Beverages
+29,Goldschalger,7.01,Beverages
+30,Beef - Inside Round,8.81,Food
+31,Oil - Cooking Spray,9.49,Food
+32,"Pasta - Penne, Lisce, Dry",8.17,Food
+33,Yukon Jack,7.92,Beverages
+34,The Pop Shoppe - Grape,13.77,Beverages
+35,Wine - Peller Estates Late,6.15,Beverages
+36,Clams - Bay,10.18,Food
+37,Ice Cream - Chocolate,1.19,Food
+38,"Soup - Knorr, Ministrone",5.81,Food
+39,Hagen Daza - Dk Choocolate,3.8,Food
+40,Longos - Burritos,11.75,Food
+41,Wine - Sauvignon Blanc Oyster,17.67,Beverages
+42,Table Cloth 53x69 White,4.98,Household Supplies
+43,Wine - Valpolicella Masi,15.42,Beverages
+44,Salt - Seasoned,6.0,Food
+45,"Soup - Campbells, Cream Of",21.82,Food
+46,Cheese - Sheep Milk,24.76,Food
+47,Tea - English Breakfast,5.34,Beverages
+48,Island Oasis - Ice Cream Mix,12.98,Food
+49,Table Cloth 62x114 White,1.63,Household Supplies
+50,"Sauce - Soya, Light",16.88,Food
+51,Cookie - Oatmeal,24.45,Food
+52,Steam Pan Full Lid,3.34,Kitchen Supplies
+53,Blackberries,1.4,Food
+54,Vinegar - Red Wine,16.2,Food
+55,Toothpick Frilled,23.17,Household Supplies
+56,Hipnotiq Liquor,19.34,Beverages
+57,Gatorade - Lemon Lime,14.63,Beverages
+58,Table Cloth 54x72 Colour,24.61,Household Supplies
+59,Gherkin,2.3,Food
+60,Ginger - Crystalized,3.53,Food
+61,Soup - French Onion,19.98,Food
+62,Beer - Mill St Organic,1.66,Beverages
+63,Flour - Rye,7.46,Kitchen Supplies
+64,Ice Cream - Life Savers,11.85,Food
+65,Wine - Two Oceans Cabernet,17.1,Beverages
+66,Longos - Assorted Sandwich,24.33,Food
+67,Steampan - Half Size Shallow,22.88,Kitchen Supplies
+68,"Vodka - Lemon, Absolut",23.71,Beverages
+69,Wine - Zinfandel California 2002,17.56,Beverages
+70,Sugar - Brown,24.16,Kitchen Supplies
+71,Wine - Jaboulet Cotes Du Rhone,16.29,Beverages
+72,"Carrots - Mini, Stem On",18.66,Food
+73,Roe - Flying Fish,2.57,Food
+74,Pepper - Green,12.02,Food
+75,Bread - Assorted Rolls,2.21,Food
+76,Lid - 16 Oz And 32 Oz,5.65,Kitchen Supplies
+77,Longos - Greek Salad,4.8,Food
+78,Cheese - Colby,5.38,Food
+79,Sprouts Dikon,5.75,Food
+80,Tart - Raisin And Pecan,6.26,Food
+81,"Lamb - Whole, Fresh",4.8,Food
+82,Island Oasis - Ice Cream Mix,21.93,Food
+83,Wine - Clavet Saint Emilion,5.72,Beverages
+84,Sprite - 355 Ml,15.92,Beverages
+85,Pumpkin - Seed,24.28,Food
+86,Lemon Pepper,23.22,Food
+87,Appetizer - Shrimp Puff,21.79,Food
+88,Noodles - Steamed Chow Mein,23.23,Food
+89,Lamb Leg - Bone - In Nz,14.61,Food
+90,Bread Cranberry Foccacia,13.08,Food
+91,"Tendrils - Baby Pea, Organic",4.66,Food
+92,Wine - Duboeuf Beaujolais,23.62,Beverages
+93,Chinese Foods - Pepper Beef,20.68,Food
+94,Chickhen - Chicken Phyllo,13.94,Food
+95,Vinegar - Champagne,9.3,Food
+96,Beef - Ox Tongue,23.69,Food
+97,Coffee Caramel Biscotti,22.77,Food
+98,Sesame Seed Black,5.99,Food
+99,Goat - Leg,22.68,Food
+100,Cheese - Wine,14.6,Food
+101,Beef - Ox Tongue,14.56,Food
+102,"Sauce - Black Current, Dry Mix",12.5,Food
+103,Berry Brulee,6.89,Food
+104,Sugar - Fine,24.16,Kitchen Supplies
+105,Papayas,11.71,Food
+106,Cucumber - Pickling Ontario,17.83,Food
+107,Kahlua,12.92,Beverages
+108,"Potatoes - Purple, Organic",17.22,Food
+109,"Sauce - Soya, Dark",2.87,Food
+110,"Placemat - Scallop, White",13.02,Kitchen Supplies
+111,"Juice - V8, Tomato",13.27,Beverages
+112,Pancetta,22.67,Food
+113,"Liqueur Banana, Ramazzotti",5.86,Beverages
+114,Sauce - Fish 25 Ozf Bottle,4.57,Food
+115,Beans - Soya Bean,4.72,Food
+116,"Mushroom - Enoki, Fresh",24.28,Food
+117,Flour - Strong,9.82,Kitchen Supplies
+118,Sauce - Marinara,20.62,Food
+119,Rosemary - Fresh,1.23,Food
+120,"Sole - Dover, Whole, Fresh",6.04,Food
+121,Island Oasis - Strawberry,1.41,Beverages
+122,Lid - 16 Oz And 32 Oz,17.38,Kitchen Supplies
+123,Eggplant Oriental,10.79,Food
+124,"Veal - Insides, Grains",11.01,Food
+125,Pepper - Scotch Bonnet,13.99,Food
+126,Beef - Texas Style Burger,11.97,Food
+127,Wonton Wrappers,2.95,Food
+128,Tomatoes - Cherry,17.66,Food
+129,Sprouts - Peppercress,4.41,Food
+130,Chocolate Bar - Smarties,13.04,Food
+131,Gatorade - Cool Blue Raspberry,2.25,Beverages
+132,Tomatoes - Grape,22.39,Food
+133,Pears - Bartlett,19.06,Food
+134,Persimmons,11.97,Food
+135,Muffin Mix - Carrot,7.34,Kitchen Supplies
+136,"Pork - Tenderloin, Frozen",2.36,Food
+137,Cheese - Oka,11.1,Food
+138,Instant Coffee,13.5,Beverages
+139,"Chilli Paste, Ginger Garlic",22.93,Food
+140,"Yogurt - Strawberry, 175 Gr",22.74,Food
+141,"Tortillas - Flour, 10",10.93,Food
+142,Beer - Muskoka Cream Ale,2.95,Beverages
+143,Hot Chocolate - Individual,13.41,Beverages
+144,Goldschalger,8.57,Beverages
+145,Raspberries - Fresh,5.71,Food
+146,Ecolab - Ster Bac,20.4,Household Supplies
+147,Nantucket Apple Juice,22.99,Beverages
+148,"Pepsi - Diet, 355 Ml",4.94,Beverages
+149,Pastry - French Mini Assorted,21.33,Food
+150,Chick Peas - Canned,9.85,Food
+151,Numi - Assorted Teas,15.1,Beverages
+152,Lambcasing,14.03,Food
+153,Baking Powder,6.46,Kitchen Supplies
+154,Pastry - Apple Muffins - Mini,21.3,Food
+155,"Wine - Harrow Estates, Vidal",21.36,Beverages
+156,Puree - Pear,5.16,Food
+157,"Chilli Paste, Hot Sambal Oelek",22.71,Food
+158,Fiddlehead - Frozen,7.39,Food
+159,"Bread - Roll, Calabrese",20.67,Food
+160,Beef - Salted,14.6,Food
+161,Wine - Ej Gallo Sonoma,9.96,Beverages
+162,Wine - Fontanafredda Barolo,24.46,Beverages
+163,Oil - Sunflower,24.89,Food
+164,Chips - Assorted,4.36,Food
+165,Wine - Cabernet Sauvignon,16.78,Beverages
+166,Sponge Cake Mix - Vanilla,8.3,Kitchen Supplies
+167,Cheese - Cambozola,8.01,Food
+168,Cake - Cake Sheet Macaroon,4.65,Food
+169,Wine - Fino Tio Pepe Gonzalez,5.98,Beverages
+170,Cookie Dough - Double,10.78,Food
+171,Broccoli - Fresh,22.13,Food
+172,"Cheese - Brie, Triple Creme",11.66,Food
+173,Lettuce - Baby Salad Greens,20.11,Food
+174,Nori Sea Weed - Gold Label,23.22,Food
+175,Ice Cream - Chocolate,20.94,Food
+176,Roe - White Fish,3.05,Food
+177,Sauce - Demi Glace,13.8,Food
+178,Soup - Campbells Beef Strogonoff,20.14,Food
+179,Lettuce - Iceberg,5.76,Food
+180,Skewers - Bamboo,20.43,Kitchen Supplies
+181,Cassis,22.95,Beverages
+182,Chocolate - Dark,21.7,Food
+183,Ecolab - Hand Soap Form Antibac,14.45,Household Supplies
+184,Sobe - Lizard Fuel,19.84,Beverages
+185,Sandwich Wrap,21.97,Kitchen Supplies
+186,Ice Cream - Super Sandwich,5.57,Food
+187,Wine - Chardonnay Mondavi,18.95,Beverages
+188,"Pepper - Black, Whole",17.33,Food
+189,Tia Maria,21.47,Beverages
+190,Egg Patty Fried,20.33,Food
+191,Soup - Campbells - Tomato,18.96,Food
+192,Milk - 1%,2.14,Food
+193,Pastry - Carrot Muffin - Mini,11.58,Food
+194,Salt And Pepper Mix - White,14.34,Food
+195,Beef - Shank,24.73,Food
+196,"Wine - Red, Marechal Foch",20.86,Beverages
+197,Butter - Salted,12.25,Food
+198,Corn Kernels - Frozen,14.89,Food
+199,"Beef - Rib Roast, Cap On",4.19,Food
+200,"Capon - Breast, Wing On",22.53,Food

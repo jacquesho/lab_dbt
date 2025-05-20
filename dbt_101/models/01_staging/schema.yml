@@ -1,0 +1,60 @@
+version: 2
+
+models:
+  - name: stg_customers
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: email
+        tests:
+          - not_null
+      - name: date_of_birth
+        tests:
+          - not_null
+
+  - name: stg_order_items
+    columns:
+      - name: ORDER_ID
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_orders')
+              field: id
+      - name: ORDER_ITEM_ID
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_products')
+              field: id
+    tests:
+      - unique:
+          column_name: (ORDER_ID || '-' || ORDER_ITEM_ID)
+
+  - name: stg_orders
+    columns:
+      - name: id
+        tests:
+          - not_null
+      - name: date
+        tests:
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+      - name: status
+        tests:
+          - accepted_values:
+              values: ['completed', 'pending', 'processing', 'cancelled', 'new']
+              severity: warn
+
+  - name: stg_products
+    columns:
+      - name: ID
+        tests:
+          - not_null
+          - unique
+      - name: NAME
+      - name: PRICE
+      - name: CATEGORY
