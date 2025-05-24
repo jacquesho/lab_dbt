@@ -22,7 +22,7 @@ jobs:
       
       - name: Run dbt tests
         run: dbt build --target ci
-        
+
     env:
       # PROJECT_DIR: ./dbt_m02w03l02
       # DBT_PROFILES_DIR: ./profiles
