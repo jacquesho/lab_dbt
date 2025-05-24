@@ -22,3 +22,15 @@ jobs:
       
       - name: Run dbt tests
         run: dbt build --target ci
+        
+    env:
+      # PROJECT_DIR: ./dbt_m02w03l02
+      # DBT_PROFILES_DIR: ./profiles
+      SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
+      SNOWFLAKE_WAREHOUSE: ${{ secrets.SNOWFLAKE_WAREHOUSE }}
+      SNOWFLAKE_DATABASE: ${{ secrets.SNOWFLAKE_DATABASE }}
+      SNOWFLAKE_ROLE: ${{ secrets.SNOWFLAKE_ROLE }}
+      SNOWFLAKE_SCHEMA: ${{ secrets.SNOWFLAKE_SCHEMA }}_${{ github.event.number }}
+      SNOWFLAKE_CI_USER: ${{ secrets.SNOWFLAKE_CI_USER }}
+      SNOWFLAKE_CI_USER_PRIVATE_KEY: ${{ secrets.SNOWFLAKE_CI_USER_PRIVATE_KEY }}
+      # SNOWFLAKE_CI_USER_PRIVATE_KEY_PASSPHRASE: ${{ secrets.SNOWFLAKE_CI_USER_PRIVATE_KEY_PASSPHRASE }}
