@@ -1,0 +1,24 @@
+name: dbt CI
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  dbt-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+      - name: Install dbt
+        run: |
+          pip install sqlfluff dbt-core dbt-snowflake
+          dbt deps
+      
+      - name: Format the code
+        run: sqlfluff lint .
+      
+      - name: Run dbt tests
+        run: dbt build --target ci

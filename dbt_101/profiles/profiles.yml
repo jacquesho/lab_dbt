@@ -1,0 +1,51 @@
+sample_dbt:
+  outputs:
+    dev:
+      type: snowflake
+      account: OVMHUPB-NA98462
+      warehouse: WH_DBT_JHO
+      database: DBT_JHO
+      role: ROLE_DBT_JHO
+      schema: ANALYTICS
+      user: USER_JHO
+      authenticator: externalbrowser
+      threads: 4
+    ci: # see https://docs.getdbt.com/docs/core/connect-data-platform/snowflake-setup#key-pair-authentication
+      type: snowflake
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE') }}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
+      role: "{{ env_var('SNOWFLAKE_ROLE') }}"
+      schema: "{{ env_var('SNOWFLAKE_SCHEMA') }}"
+      user: "{{ env_var('SNOWFLAKE_CI_USER') }}"
+      private_key: "{{ env_var('SNOWFLAKE_CI_USER_PRIVATE_KEY') }}"
+      private_key_passphrase: "{{ env_var('SNOWFLAKE_CI_USER_PRIVATE_KEY_PASSPHRASE') }}"
+      threads: 4
+    prod: # see https://docs.getdbt.com/docs/core/connect-data-platform/snowflake-setup#key-pair-authentication
+      type: snowflake
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE') }}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
+      role: "{{ env_var('SNOWFLAKE_ROLE') }}"
+      schema: "{{ env_var('SNOWFLAKE_SCHEMA') }}"
+      user: "{{ env_var('SNOWFLAKE_CD_USER') }}"
+      private_key: "{{ env_var('SNOWFLAKE_CD_USER_PRIVATE_KEY') }}"
+      private_key_passphrase: "{{ env_var('SNOWFLAKE_CD_USER_PRIVATE_KEY_PASSPHRASE') }}"
+      threads: 4
+  target: dev
+
+  jobs:
+  dbt-test:
+    runs-on: ubuntu-latest
+
+    env:
+      # PROJECT_DIR: ./dbt_m02w03l02
+      # DBT_PROFILES_DIR: ./profiles
+      SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
+      SNOWFLAKE_WAREHOUSE: ${{ secrets.SNOWFLAKE_WAREHOUSE }}
+      SNOWFLAKE_DATABASE: ${{ secrets.SNOWFLAKE_DATABASE }}
+      SNOWFLAKE_ROLE: ${{ secrets.SNOWFLAKE_ROLE }}
+      SNOWFLAKE_SCHEMA: ${{ secrets.SNOWFLAKE_SCHEMA }}_${{ github.event.number }}
+      SNOWFLAKE_CI_USER: ${{ secrets.SNOWFLAKE_CI_USER }}
+      SNOWFLAKE_CI_USER_PRIVATE_KEY: ${{ secrets.SNOWFLAKE_CI_USER_PRIVATE_KEY }}
+      # SNOWFLAKE_CI_USER_PRIVATE_KEY_PASSPHRASE: ${{ secrets.SNOWFLAKE_CI_USER_PRIVATE_KEY_PASSPHRASE }}
