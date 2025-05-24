@@ -28,20 +28,19 @@ jobs:
 
       - name: Install dbt and dependencies
         run: pip install -r requirements.txt
-        # No working-directory needed — requirements.txt is in root
 
       - name: Install dbt packages
-        run: dbt deps
+        run: dbt deps --profiles-dir ./profiles
         working-directory: ./dbt_101
 
       - name: Debug dbt profile connection
-        run: dbt debug --target dev
+        run: dbt debug --target dev --profiles-dir ./profiles
         working-directory: ./dbt_101
 
       - name: Run dbt models
-        run: dbt run --target dev
+        run: dbt run --target dev --profiles-dir ./profiles
         working-directory: ./dbt_101
 
       - name: Test dbt models
-        run: dbt test --target dev
+        run: dbt test --target dev --profiles-dir ./profiles
         working-directory: ./dbt_101

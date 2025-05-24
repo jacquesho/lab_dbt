@@ -27,14 +27,12 @@ jobs:
           python-version: '3.9'
 
       - name: Install dbt and dependencies
-        run: |
-          pip install -r requirements.txt
-        # No working-directory needed here — this reads from the repo root
+        run: pip install -r requirements.txt
 
       - name: Install dbt packages
-        run: dbt deps
+        run: dbt deps --profiles-dir ./profiles
         working-directory: ./dbt_101
 
       - name: Deploy dbt models
-        run: dbt build --target prod
+        run: dbt build --target prod --profiles-dir ./profiles
         working-directory: ./dbt_101
