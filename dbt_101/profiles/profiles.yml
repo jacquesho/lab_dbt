@@ -1,4 +1,4 @@
-sample_dbt:
+dbt_101:
   outputs:
     dev:
       type: snowflake
